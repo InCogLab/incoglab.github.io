@@ -10,7 +10,6 @@ body {
   color: #111;
 }
 
-/* top-left small logo */
 .mini-logo {
   position: fixed;
   top: 10px;
@@ -20,7 +19,6 @@ body {
   z-index: 20;
 }
 
-/* top-right nav */
 nav {
   position: fixed;
   top: 34px;
@@ -41,13 +39,11 @@ nav a.active {
   color: #e61d89;
 }
 
-/* shared section base */
 .section {
   min-height: 100vh;
   box-sizing: border-box;
 }
 
-/* white hero section */
 .section.white {
   display: grid;
   grid-template-columns: minmax(340px, 48vw) minmax(360px, 44vw);
@@ -67,11 +63,11 @@ nav a.active {
   height: auto;
   justify-self: center;
   align-self: center;
+  display: block;
 }
 
-.section.white h3 {
+.section.white h4 {
   grid-column: 2;
-  grid-row: 1;
   margin: 0;
   max-width: 760px;
   font-size: 22px;
@@ -82,7 +78,6 @@ nav a.active {
 
 .section.white p {
   grid-column: 2;
-  grid-row: 2;
   margin: 0;
   max-width: 760px;
   font-size: 22px;
@@ -91,7 +86,6 @@ nav a.active {
   text-align: left;
 }
 
-/* blue section */
 .section.blue {
   position: relative;
   background: #c8dafb;
@@ -100,7 +94,6 @@ nav a.active {
   overflow: hidden;
 }
 
-/* angled white corner at bottom right */
 .section.blue::after {
   content: "";
   position: absolute;
@@ -112,8 +105,7 @@ nav a.active {
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
-/* top intro block */
-.section.blue h1 {
+.section.blue h4 {
   position: relative;
   z-index: 1;
   width: min(70vw, 980px);
@@ -129,7 +121,6 @@ nav a.active {
   text-align: center;
 }
 
-/* question cards */
 .section.blue p {
   position: relative;
   z-index: 1;
