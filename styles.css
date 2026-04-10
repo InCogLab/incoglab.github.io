@@ -19,7 +19,6 @@ body {
 }
 
 nav {
-  position: fixed;
   top: 34px;
   right: 120px;
   z-index: 20;
@@ -39,7 +38,7 @@ nav a.active {
 }
 
 .section {
-  min-height: 100vh;
+  min-height: auto;
   box-sizing: border-box;
 }
 
@@ -48,17 +47,18 @@ nav a.active {
   grid-template-columns: minmax(340px, 48vw) minmax(360px, 44vw);
   grid-template-rows: auto auto;
   column-gap: 34px;
-  row-gap: 10px;
+  row-gap: 5px;
   align-items: center;
   justify-content: center;
-  padding: 120px 90px 70px;
+  height: 55vh;  
+  padding: 60px 90px 20px;
   background: white;
 }
 
 .big-logo {
   grid-column: 1;
   grid-row: 1 / span 2;
-  width:400px ;
+  width:350px ;
   height: auto;
   justify-self: center;
   align-self: center;
@@ -67,7 +67,7 @@ nav a.active {
 
 .section.white h4 {
   grid-column: 2;
-  margin: 0;
+margin-bottom: 10px;
   max-width: 760px;
   font-size: 22px;
   font-weight: 400;
@@ -77,7 +77,9 @@ nav a.active {
 
 .section.white p {
   grid-column: 2;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.4;      
   max-width: 760px;
   font-size: 22px;
   font-weight: 400;
@@ -127,6 +129,7 @@ nav a.active {
   margin: 14px auto;
   background: white;
   box-sizing: border-box;
+   height: 45vh;
   padding: 22px 40px;
   color: #e61d89;
   font-size: 22px;
