@@ -23,12 +23,11 @@ body {
 
 nav {
   position: absolute;
-
   top: 34px;
   right: 120px;
   z-index: 20;
   display: flex;
-  gap: 110px;
+  gap: 60px; 
 }
 
 nav a {
@@ -57,7 +56,7 @@ nav a.active {
 }
 
 .big-logo {
-  width: 320px;
+  width: 400px;
   max-width: 38vw;
   height: auto;
   display: block;
