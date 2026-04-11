@@ -8,9 +8,12 @@ html, body {
 
 body {
   color: #111;
+  position: relative;
+
 }
 
 .mini-logo {
+  position: absolute; 
   top: 10px;
   left: 14px;
   width: 400px;
@@ -19,6 +22,8 @@ body {
 }
 
 nav {
+  position: absolute;
+
   top: 34px;
   right: 120px;
   z-index: 20;
@@ -41,58 +46,46 @@ nav a.active {
   min-height: auto;
   box-sizing: border-box;
 }
-
 .section.white {
-  display: grid;
-  grid-template-columns: minmax(340px, 48vw) minmax(360px, 44vw);
-  grid-template-rows: auto auto;
-  column-gap: 34px;
-  row-gap: 5px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  height: 55vh;  
-  padding: 60px 90px 20px;
+  gap: 28px;
+  padding: 70px 60px 25px;
   background: white;
+  min-height: auto;
 }
 
 .big-logo {
-  grid-column: 1;
-  grid-row: 1 / span 2;
-  width:350px ;
+  width: 320px;
+  max-width: 38vw;
   height: auto;
-  justify-self: center;
-  align-self: center;
   display: block;
 }
 
+
 .section.white h4 {
-  grid-column: 2;
-margin-bottom: 10px;
-  max-width: 760px;
-  font-size: 22px;
+  margin: 0 0 8px 0;
+  max-width: 640px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.25;
   text-align: center;
 }
 
 .section.white p {
-  grid-column: 2;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 1.4;      
-  max-width: 760px;
-  font-size: 22px;
+  margin: 0;
+  max-width: 640px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.25;
   text-align: left;
 }
 
 .section.blue {
-  position: relative;
   background: #c8dafb;
-  padding: 35px 0 80px;
-  box-sizing: border-box;
-  overflow: hidden;
+  padding: 28px 0 40px;
+  min-height: auto;
 }
 
 .section.blue::after {
@@ -107,38 +100,33 @@ margin-bottom: 10px;
 }
 
 .section.blue h4 {
-  position: relative;
-  z-index: 1;
-  width: min(70vw, 980px);
+  width: min(82vw, 980px);
   margin: 0 auto 14px;
   background: white;
-  border-radius: 34px;
-  padding: 18px 34px;
+  border-radius: 28px;
+  padding: 16px 28px;
   box-sizing: border-box;
   color: #2453d6;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.25;
   text-align: center;
+} 
+.section.blue p {
+  width: min(82vw, 980px);
+  margin: 12px auto;
+  background: white;
+  padding: 18px 28px;
+  box-sizing: border-box;
+  color: #e61d89;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  border-right: 6px solid #e61d89;
+  border-bottom: 6px solid #e61d89;
 }
 
-.section.blue p {
-  position: relative;
-  z-index: 1;
-  width: min(70vw, 980px);
-  margin: 14px auto;
-  background: white;
-  box-sizing: border-box;
-   height: 45vh;
-  padding: 22px 40px;
-  color: #e61d89;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 1.35;
-  text-align: center;
-  border-right: 8px solid #e61d89;
-  border-bottom: 8px solid #e61d89;
-}
 
 img {
   display: block;
