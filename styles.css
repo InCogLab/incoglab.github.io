@@ -63,8 +63,8 @@ nav a.active {
 }
 
 .big-logo {
-  width: clamp(250px, 25vw, 400px);
-  height: auto;
+  width: auto;
+  height: 200px;
   flex-shrink: 0;
 }
 
