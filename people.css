@@ -28,8 +28,8 @@
 }
 
 .person-photo {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border-radius: 8px;
   object-fit: cover;
   display: block;
