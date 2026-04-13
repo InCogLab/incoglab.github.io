@@ -3,12 +3,16 @@
   max-width: 900px;
   margin: 0 auto;
 }
-
 .person-row {
   display: flex;
   align-items: flex-start;
-  border: 1px solid #c8dafb;
+  border: 1px solid #e5e7eb;
+  background: white;
+}
+
+.person-row.pi {
   background: #e8f0fe;
+  border-color: #c8dafb;
 }
 
 .person-left {
