@@ -15,6 +15,10 @@
 .person-row.pi {
   border-color: #c8dafb;
 }
+.person-row.pi .person-bio {
+  background: #e8f0fe;
+  border-left: 1px solid #a0bdf8;
+}
 
 .person-left {
   width: 220px;
