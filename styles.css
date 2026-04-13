@@ -55,10 +55,11 @@ nav a.active {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  padding: 100px 70px 70px;
+  padding: 80px 70px 50px;
   background: white;
-  min-height: 85vh;
+  min-height: 70vh;
 }
+
 
 .big-logo {
   width: auto;
@@ -89,11 +90,12 @@ nav a.active {
   text-align: left;
 }
 
+
 .section.blue {
   position: relative;
-  background: #c8dafb;
-  padding: 60px 0 120px;
-  min-height: 90vh;
+  background: linear-gradient(160deg, #dceeff 0%, #c8dafb 50%, #b0caff 100%);
+  padding: 40px 0 80px;
+  min-height: 70vh;
   overflow: hidden;
 }
 
