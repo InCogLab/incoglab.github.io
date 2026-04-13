@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overflow-y: auto;
   font-family: Arial, Helvetica, sans-serif;
   background: white;
 }
@@ -15,7 +16,6 @@ img {
   display: block;
 }
 
-/* small top-left logo */
 .mini-logo {
   position: absolute;
   top: 10px;
@@ -25,7 +25,6 @@ img {
   z-index: 20;
 }
 
-/* top-right nav */
 nav {
   position: absolute;
   top: 28px;
@@ -51,7 +50,6 @@ nav a.active {
   min-height: auto;
 }
 
-/* white section */
 .section.white {
   display: flex;
   align-items: center;
@@ -91,7 +89,6 @@ nav a.active {
   text-align: left;
 }
 
-/* blue section */
 .section.blue {
   position: relative;
   background: #c8dafb;
@@ -131,6 +128,51 @@ nav a.active {
   text-align: center;
   border-right: 6px solid #e61d89;
   border-bottom: 6px solid #e61d89;
+}
+
+footer {
+  background: white;
+  border-top: 1px solid #e5e7eb;
+  padding: 36px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-text {
+  font-size: 13px;
+  color: #999;
+}
+
+.social-icons {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid #ddd;
+  color: #555;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.social-link:hover {
+  border-color: #2f59df;
+  color: #2f59df;
+}
+
+.social-link svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
 }
 
 @media (max-width: 1000px) {
