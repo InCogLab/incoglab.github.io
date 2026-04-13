@@ -1,0 +1,124 @@
+.people-page {
+  padding-top: 80px;
+}
+
+.person-row {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #c8dafb;
+  background: #e8f0fe;
+}
+
+.person-left {
+  width: 220px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px 20px;
+  gap: 6px;
+}
+
+.person-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.person-name {
+  margin: 8px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+}
+
+.person-role {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+.person-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.person-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  color: #2f59df;
+  text-decoration: none;
+}
+
+.person-link svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.person-link:hover {
+  color: #e61d89;
+}
+
+.person-bio {
+  flex: 1;
+  padding: 30px 36px;
+  background: white;
+  border-left: 1px solid #c8dafb;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #111;
+  text-align: justify;
+}
+
+.person-bio p {
+  margin: 0 0 14px;
+}
+
+.person-bio p:last-child {
+  margin-bottom: 0;
+}
+
+.join-box {
+  margin: 40px auto;
+  width: min(80%, 560px);
+  border: 3px solid #2f59df;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.join-box h2 {
+  color: #2f59df;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 14px;
+}
+
+.join-box p {
+  font-size: 16px;
+  color: #111;
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+
+@media (max-width: 700px) {
+  .person-row {
+    flex-direction: column;
+  }
+
+  .person-left {
+    width: 100%;
+  }
+
+  .person-bio {
+    border-left: none;
+    border-top: 1px solid #c8dafb;
+  }
+}
