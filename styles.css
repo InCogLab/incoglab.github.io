@@ -27,17 +27,18 @@ img {
 
 nav {
   position: absolute;
-  align-items: center;
   top: 28px;
-  right: 70px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 20;
   display: flex;
+  align-items: center;
   gap: clamp(40px, 6vw, 110px);
 }
 
 nav a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   color: #2f59df;
 }
@@ -94,7 +95,7 @@ nav a.active {
 
 .section.blue {
   position: relative;
-  background: linear-gradient(160deg, #aec7ec 0%, #4870f3 50%, #1346ec 100%);
+  background: linear-gradient(160deg, #aec7ec 0%, #87c5ff 50%, #2a91e6 100%);
   padding: 40px 0 80px;
   min-height: 70vh;
   overflow: hidden;
