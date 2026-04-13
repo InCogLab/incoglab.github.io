@@ -56,10 +56,10 @@ nav a.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  padding:100px 70px 70px;
+  gap: 28px;
+  padding: 110px 70px 80px;
   background: white;
-  overflow: visible;
+  min-height: 85vh;
 }
 
 .big-logo {
@@ -84,7 +84,7 @@ nav a.active {
 }
 
 .section.white p {
-  margin: 0;
+  margin: 12px 0 0;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.25;
@@ -94,11 +94,11 @@ nav a.active {
 /* blue section */
 .section.blue {
   position: relative;
-  background: #cddfff;
-  padding: 28px 0 46px;
+  background: #c8dafb;
+  padding: 60px 0 120px;
+  min-height: 90vh;
   overflow: hidden;
 }
-
 
 .section.blue h4 {
   position: relative;
