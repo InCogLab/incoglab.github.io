@@ -42,12 +42,13 @@ nav a {
   font-weight: 500;
   color: #2f59df;
 }
-
-nav a:hover {
-  color: #f96e05;
-}
 nav a.active {
   color: #e61d89;
+}
+
+nav a.active:hover,
+nav a:hover {
+  color: #f96e05;
 }
 
 .section {
