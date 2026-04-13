@@ -196,4 +196,7 @@ footer {
   .section.white p {
     text-align: center;
   }
+}.page-header {
+  position: relative;
+  height: 100px;
 }
