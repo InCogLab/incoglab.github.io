@@ -56,8 +56,8 @@ nav a.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 28px;
-  padding: 72px 70px 34px;
+  gap: 40px;
+  padding:100px 70px 70px;
   background: white;
   overflow: visible;
 }
