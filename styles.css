@@ -93,7 +93,7 @@ nav a.active {
 
 .section.blue {
   position: relative;
-  background: linear-gradient(160deg, #dceeff 0%, #c8dafb 50%, #b0caff 100%);
+  background: linear-gradient(160deg, #7ba8ec 0%, #456def 50%, #1346ec 100%);
   padding: 40px 0 80px;
   min-height: 70vh;
   overflow: hidden;
