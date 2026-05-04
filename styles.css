@@ -97,10 +97,9 @@ nav a:hover {
   text-align: center;
 }
 
-
 .section.blue {
   position: relative;
-  background: #6699ff;
+  background: linear-gradient(135deg, #a1c4fd 0%, #6699ff 100%);
   padding: 40px 0 80px;
   min-height: 70vh;
   overflow: hidden;
