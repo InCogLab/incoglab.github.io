@@ -17,12 +17,8 @@ img {
 }
 
 .mini-logo {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  width: 150px;
+  width: min(120px, 15vw);
   height: auto;
-  z-index: 20;
 }
 
 nav {

@@ -5,6 +5,7 @@
   margin: 0 auto;
 }
 
+
 .person-row {
   display: flex;
   flex-direction: row;
@@ -125,4 +126,8 @@
   color: #111;
   line-height: 1.5;
   margin: 0 0 8px;
+}
+.mini-logo {
+  width: min(120px, 15vw);
+  height: auto;
 }

@@ -31,3 +31,7 @@
 .pub-item a:hover {
   color: #e61d89;
 }
+.mini-logo {
+  width: min(120px, 15vw);
+  height: auto;
+}
